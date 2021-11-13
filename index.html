@@ -16,10 +16,66 @@
             href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         />
         <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+        <script src="./js/index.js"></script>
+        <script>
+            $(window).on("scroll", function () {
+                if ($(window).scrollTop()) {
+                    $("nav").addClass("black");
+                } else {
+                    $("nav").removeClass("black");
+                }
+            });
+        </script>
     </head>
     <body>
 
-      
+      <!-- navbar section start -->
+<header id="header">
+    <nav>
+        <div class="logo">
+            <img src="./images/logo.png" alt="">
+        </div>
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#portfolio_section">Portfolio</a></li>
+            <li><a href="#team_section">Team</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#contact_section">Contact</a></li>
+        </ul>
+        <div class="search">
+            <input type="text"  class="srch" placeholder="Search here">
+            <i class="fa fa-search fa-lg"></i>
+        </div>
+        <a href="#" class="getstarted">Get started</a>
+        <i id="bar" onclick="sidemenu(0)" class="fa fa-bars fa-lg"></i>
+    </nav>
+    <div class="head">
+        <div class="quote">
+            <p>The beautiful thing about learning is that nobody can
+                take it away from you</p>
+                <h5>Education is the process of facilitating learning, or
+                    the acquisition of knowledge, skills, values, beliefs,
+                    and habits. Educational methods include teaching,
+                    training, storytelling, discussion and directed
+                    research!</h5>
+        </div>
+        <div class="headimg"><img src="./images/head.png" alt=""></div>
+    </div>
+    <div class="sidemenu" id="sidemenu">
+        <i id="close" onclick="sidemenu(1)" class="fa fa-times fa-2x">
+        </i>
+        <ul>
+            <li><a href="#portfolio_section">Portfolio</a></li>
+            <li><a href="#team_section">Team</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#contact_section">Contact</a></li>
+            <li><a href="#about_section">About</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+        </ul> 
+    </div>
+</header>
+<!-- navbar section end -->
       <!-- Popular Subjects Section -->
       
       <section>

@@ -7,36 +7,43 @@
 
 /* Popular Subjects */
 
+.course{
+    text-align: center;
+}
+
 .cbox {
-  position: relative;
-  width: 100%;
+  /* position: relative; */
+  width: 80%;
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
+  margin: auto;
 }
 .cbox .det {
   width: 250px;
   height: 80px;
-  margin: 10px;
+  margin: 10px 20px;
   background: #fff;
   cursor: pointer;
-}
-.cbox .det a {
   justify-content: space-around;
-  width: 250px;
-  padding: 28px;
+  /* width: 900px; */
+  padding: 28px 40px;
   border-radius: 10px;
   border: 1px solid #a83279;
-  font-size: 15px;
-  color: #272529;
-  font-family: cursive;
-  text-decoration: none;
 }
-.cbox .det a:hover {
+.cbox .det a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: cursive;
+    color: #272529;
+
+}
+.cbox .det:hover {
   background: linear-gradient(to right, #a83279, #ffbb3b);
   color: white;
 }
-.cbox .det a:hover img {
+.cbox .det:hover img {
   filter: brightness(100);
 }
 .cbox img {
@@ -185,6 +192,63 @@ center > p {
     outline: none;
     border-radius: 6px;
 }
+/* About section css */
+#about_section {
+    font-family: "Open Sans", sans-serif;
+    color: #2e3d49;
+    position: relative;
+  }
+  .diff_Section {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .diff_Section .content {
+    margin: 10px;
+    text-align: center;
+    padding: 10px 100px;
+    font-size: 1.1em;
+  }
+  
+  .about-content {
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+  }
+  .about-content .side-text {
+    width: 550px;
+    padding: 40px 40px;
+    background: #fff;
+    box-shadow: 2px 0 100px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    text-align: justify;
+    line-height: 22px;
+    transition: 1s ease-in-out;
+  }
+  
+  .about-content .side-text h2 {
+    padding: 10px;
+  }
+  .about-content .side-text p {
+    padding: 10px;
+  }
+  .about-content .side-image img {
+    width: 92%;
+    border-radius: 7px;
+  }
+  
+  .sideImage {
+    width: 450px;
+    height: 380px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  /* About section css end */
+
 .port {
     width: 100%;
     /*position: relative;*/

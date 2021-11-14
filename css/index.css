@@ -119,6 +119,87 @@ center > p {
     margin: 40px 10px;
     text-decoration: none;
 }
+
+/* Reviews */
+
+#makeitfull {
+  display: flex;
+  justify-content: center;
+  transform: translateY(35px);
+}
+#makeitfull img {
+  width: 50px;
+}
+.review {
+  background: #f8f8f8;
+  width: 100%;
+}
+.rev-container {
+  padding: 10px 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.rev-container .rev-card {
+  width: 550px;
+  height: 240px;
+  margin-bottom: 40px;
+  background: #fff;
+  display: flex;
+  padding: 10px;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+}
+.rev-card:hover {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+.identity {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+.identity img {
+  width: 120px;
+  height: 120px;
+  transition-duration: 0.8s;
+  border-radius: 50%;
+}
+.identity img:hover {
+  transform: scale(2.2);
+  border-radius: 0px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.identity p {
+  width: 150px;
+  font-weight: bold;
+  color: #2e3d49;
+  text-align: center;
+}
+.identity h6 {
+  width: 150px;
+  text-align: center;
+}
+.identity .rating img {
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+}
+.rev-cont {
+  overflow: hidden;
+}
+.rev-cont #title {
+  padding: 10px;
+  color: #2e3d49;
+  font-weight: bold;
+}
+.rev-cont #content {
+  padding: 10px;
+  font-size: 0.9em;
+  color: #2e3d49;
+  line-height: 22px;
+  text-align: justify;
+}
+
 /*  feed back start */
 
 .heading {
@@ -338,7 +419,7 @@ center > p {
     border-top: 5px solid #79cbca;
 }
 .card:nth-child(4) {
-    border-top: 5px solid #f857a6;
+    border-top: 5px solid #2C272E;
 }
 .card:nth-child(1):hover {
     box-shadow: inset 0px 0px 10px #ffbb3b, 1px 1px 30px #ffbb3b;
@@ -350,7 +431,7 @@ center > p {
     box-shadow: inset 0px 0px 10px #79cbca, 1px 1px 30px #79cbca;
 }
 .card:nth-child(4):hover {
-    box-shadow: inset 0px 0px 10px #f857a6, 1px 1px 30px #f857a6;
+    box-shadow: inset 0px 0px 10px #2C272E, 1px 1px 30px #2C272E;
 }
 .totalcard .card img {
     width: 100px;
@@ -406,7 +487,7 @@ center > p {
     color: #fff;
 }
 .btn-aditya:hover {
-    background: #f857a6;
+    background: #2C272E;
     color: #fff;
 }
 

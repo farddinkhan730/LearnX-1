@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inbt {
+    padding: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    color: #2e3d49;
+    margin: 100px;
+    margin-bottom: 50px;
+}
+.ccard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.ccardbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dcard {
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(to left, #a83279, #ffbb3b);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+.dcard .fpart {
+    width: inherit;
+    height: 150px;
+    color: #000;
+    text-align: left;
+    overflow: hidden;
+}
+.dcard .fpart img {
+    width: 100%;
+    height: 100%;
+}
+.dcard .spart {
+    padding: 10px;
+    padding-right: 0px;
+    padding-top: 14px;
+    color: #fff;
+    text-align: left;
+    cursor: pointer;
+}
+.fa {
+    width: 20px;
+    margin-left: 180px;
+    cursor: pointer;
+}
+.dcard:hover .fpart img {
+    transition: 0.8s ease;
+    transform: scale(1.2);
+}
+a {
+    text-decoration: none;
+}
+.title2 {
+    position: relative;
+    padding-top: 150px;
+    margin-left: 100px;
+}
+.title2 span {
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    color: #2e3d49;
+}
+.title2 .description {
+    padding: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    color: #2e3d49;
+    margin-bottom: 10px;
+}
+.videobox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.organic {
+    margin: 20px;
+    width: 300px;
+    height: 160px;
+    background: linear-gradient(to left, #ffbb3b, #a83279);
+    border-radius: 10px;
+}
+.organic:hover .orgimg img {
+    display: none;
+}
+.organic .orgimg {
+    width: inherit;
+    height: 180px;
+    background: #000;
+    color: #000;
+    text-align: left;
+    border-top-right-radius: 100px;
+    transform: translateY(-19px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+.organic .tag {
+    position: relative;
+    margin-left: 270px;
+    top: 10px;
+    color: #fff;
+}
+.organic .orgimg img {
+    width: 100%;
+    height: 100%;
+}
+.orgimg iframe {
+    height: inherit;
+    width: inherit;
+}
+
+/*Watch Full Playlist*/
+.click-me {
+    justify-content: center;
+    display: flex;
+}
+.click-me a {
+    color: #a83279;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    padding: 10px;
+    font-weight: bold;
+}
+.click-me a:hover {
+    background: #a83279;
+    color: #fff;
+}

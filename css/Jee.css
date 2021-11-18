@@ -238,6 +238,8 @@ html {
 	align-items: center;
 	flex-wrap: wrap;
 	justify-content: space-around;
+    width: 80%;
+    margin: auto;
 }
 .lastSample {
 	margin-bottom: 100px;

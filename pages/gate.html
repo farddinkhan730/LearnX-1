@@ -14,6 +14,73 @@
         <link rel="stylesheet" href="../css/Gate.css" />
     </head>
     <body>
+		 <!-- NAVIGATION -->
+<header>
+    <div class="nav" id="nav">
+        <div id="learned-logo">
+        <a href="../index.html"><img src="../images/logo.png" style="width: 190px;"></a></div>
+        <div class="switch-tab" id="switch-tab" onclick="switchTAB()"><i class="fa fa-bars fa-lg"></i></div>
+        <ul id="list-switch">
+            <li><a href="#"><i id="icon" class="fa fa-cogs fa-lg"></i>JEE</a></li>
+            <li><a href="gate.html"><i id="icon" class="fa fa-book fa-lg"></i>GATE</a></li>
+            <li><a href="computer_courses.html"><i  id="icon" class="fa fa-desktop fa-lg"></i>Computer Courses</a></li>
+            <li><a href="computer_courses.html#data"><i id="icon" class="fa fa-sitemap fa-lg"></i>Data Structures</a></li>
+            <li><a href="computer_courses.html#algo"><i  id="icon" class="fa fa-file-code-o fa-lg"></i>Algorithm</a></li>
+            <li><a href="computer_courses.html#projects"><i id="icon" class="fa fa-tasks fa-lg"></i>Projects</a></li>
+        </ul>
+        </div>
+</header>
+
+<div class="title">
+    <span>Prepare for Gate exams on LearnX</span>
+    <div class="shortdesc">
+        <p>Learn from LearnX for better higher studies in <br>Indian Institute of Technology(IIT)</p>
+    </div>
+</div>
+<div class="course">
+	<div class="cbox">
+	<div class="det"><a href="#digital">Digital Logic</a></div>
+	<div class="det"><a href="https://en.wikipedia.org/wiki/Sequential_logic" target="_blank">Combinational & Sequential Circuits</a></div>
+	<div class="det"><a href="https://en.wikipedia.org/wiki/ALU" target="_blank">Computer Arithmetic</a></div>
+	<div class="det"><a href="https://en.wikipedia.org/wiki/Boolean_algebra" target="_blank">Boolean Algebra</a></div>
+	<div class="det"><a href="computer_courses.html#algo">Algorithm</a></div>
+	<div class="det"><a href="computer_courses.html#data">Data Structures</a></div>
+	</div>
+	<div class="cbox">
+	<div class="det"><a href="#compiler">Compiler Design</a></div>
+	<div class="det"><a href="#os">OS</a></div>
+	<div class="det"><a href="#coaa">Computer Organization & Architecture</a></div>
+	<div class="det"><a href="https://en.wikipedia.org/wiki/IPv4" target="_blank">IPv4 / IPv6</a></div>
+	<div class="det"><a href="#cn">Computer Networks</a></div>
+	<div class="det"><a href="#database">Databases</a></div>
+	<div class="det"><a href="https://en.wikipedia.org/wiki/Theory_of_computation" target="_blank">Theory of Computation</a></div>
+	</div>
+	<div class="cbox">
+	<div class="det"><a href="#math">Discrete Mathematics</a></div>
+	<div class="det"><a href="#math">Calculus</a></div>
+	<div class="det"><a href="#math">Linear Algebra</a></div>
+	<div class="det"><a href="#math">Trigonometry</a></div>
+	<div class="det"><a href="#math">Integration</a></div>
+	<div class="det"><a href="#math">Matrices</a></div>
+	<div class="det"><a href="#math">Probability</a></div>
+	<div class="det"><a href="#math">Differentiation</a></div>
+	</div>
+</div>
+<script>
+    var i = 2;
+    function switchTAB() {
+        var x = document.getElementById("list-switch");
+        if (i % 2 == 0) {
+            document.getElementById("list-switch").style =
+                "display: grid; height: 50vh; margin-left: 5%;";
+        } else {
+            document.getElementById("list-switch").style =
+                "display: none;";
+        }
+        i++;
+    }
+</script>
+	<!-- navigation bar end -->
         <!-- Quick links  -->
         <div class="inbt">
             Accelerate your career with Gate programs
@@ -29,6 +96,7 @@
                             ><div class="spart">
                                 2 Courses
                                 <i
+								    id="circle"
                                     class="fa fa-chevron-circle-down fa-lg"
                                 ></i></div
                         ></a>
@@ -41,6 +109,7 @@
                             ><div class="spart">
                                 5 Courses
                                 <i
+									id="circle"
                                     class="fa fa-chevron-circle-down fa-lg"
                                 ></i></div
                         ></a>
@@ -53,6 +122,7 @@
                             ><div class="spart">
                                 3 Courses
                                 <i
+								id="circle"
                                     class="fa fa-chevron-circle-down fa-lg"
                                 ></i></div
                         ></a>
@@ -67,6 +137,7 @@
                             ><div class="spart">
                                 6 Courses
                                 <i
+								id="circle"
                                     class="fa fa-chevron-circle-down fa-lg"
                                 ></i></div
                         ></a>
@@ -79,6 +150,7 @@
                             ><div class="spart">
                                 2 Courses
                                 <i
+								id="circle"
                                     class="fa fa-chevron-circle-down fa-lg"
                                 ></i></div
                         ></a>
@@ -91,6 +163,7 @@
                             ><div class="spart">
                                 1 Courses
                                 <i
+								id="circle"
                                     class="fa fa-chevron-circle-down fa-lg"
                                 ></i></div
                         ></a>

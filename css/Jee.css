@@ -409,3 +409,138 @@ footer .btn:hover {
         margin: 20px;
     }
 }
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+.nav {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.nav li,
+a,
+button {
+    float: left;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #2e3d49;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav ul li img {
+    width: 20px;
+    margin-right: 10px;
+    transform: translateY(5px);
+    padding-top: 5px;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav ul li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav ul li a:hover {
+    color: #ffbb3b;
+}
+.nav .switch-tab {
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.nav .check-box {
+    cursor: pointer;
+    visibility: hidden;
+}
+#icon {
+    padding-right: 10px;
+    color: #a83279;
+}
+.title {
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.title span {
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    font-size: 60px;
+    color: #2e3d49;
+}
+.title .shortdesc {
+    padding: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: #2e3d49;
+    margin-bottom: 50px;
+}
+.course {
+    display: grid;
+    justify-content: center;
+}
+
+.cbox {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cbox .det {
+    height: 60px;
+    margin: 10px;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.cbox .det a {
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px;
+    border-radius: 50px;
+    border: 1px solid #a83279;
+    font-size: 15px;
+    color: #272529;
+    font-family: cursive;
+    text-decoration: none;
+}
+
+.cbox .det a:hover {
+    background: linear-gradient(to right, #a83279, #ffbb3b);
+    color: white;
+}
+@media screen and (max-width: 1000px) {
+    .nav ul,
+    .nav .search {
+        display: none;
+    }
+    .nav #learned-logo {
+        transition: 1s ease;
+        margin-left: 40%;
+        transform: scale(1.2);
+    }
+    .nav ul li {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .nav .switch-tab {
+        visibility: visible;
+        color: #a83279;
+    }
+    .nav .check-box {
+        visibility: visible;
+    }
+}

@@ -529,7 +529,7 @@ button {
     }
     .nav #learned-logo {
         transition: 1s ease;
-        margin-left: 40%;
+        margin-left: 35%;
         transform: scale(1.2);
     }
     .nav ul li {
@@ -542,5 +542,10 @@ button {
     }
     .nav .check-box {
         visibility: visible;
+    }
+}
+@media screen and (max-width: 400px) {
+    .nav #learned-logo {
+        margin-left: 20%;
     }
 }

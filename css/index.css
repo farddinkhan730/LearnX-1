@@ -7,7 +7,7 @@
 html {
     scroll-behavior: smooth;
 }
-#icon{
+#icon {
     padding-right: 40px;
 }
 /* Popular Subjects */
@@ -47,7 +47,7 @@ html {
     background: linear-gradient(to right, #a83279, #ffbb3b);
     color: white;
 }
-.cbox .det:hover img {
+.cbox .det:hover i {
     filter: brightness(100);
 }
 .cbox img {
@@ -794,7 +794,6 @@ footer .btn:hover {
     .title {
         margin-top: 0px;
     }
-
 }
 @media screen and (max-width: 700px) {
     footer .btn {
@@ -1023,7 +1022,6 @@ a {
     .quote p {
         font-size: 30px;
     }
-    
 }
 @media screen and (max-width: 700px) {
     .headimg img {

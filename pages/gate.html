@@ -1267,5 +1267,15 @@
                 </div>
             </div>
         </footer>
+        <script>
+            window.onload = () => {
+                if (!sessionStorage.getItem("LXID")) {
+                    let my_url = "../login.html";
+                    setTimeout(function () {
+                        window.location.replace(my_url);
+                    }, 5000);
+                }
+            };
+        </script>
     </body>
 </html>

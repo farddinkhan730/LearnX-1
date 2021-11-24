@@ -121,10 +121,20 @@
                     
                     <div id="f10"><iframe class="quiz-frame" src="https://docs.google.com/forms/d/e/1FAIpQLSeng8Sc5lPe44sS8Q1vAC91U-f3VI9W8zDY2HiDQ10wlccZfw/viewform?usp=sf_link">Loading…</iframe></div>
         
-                    <div id="f11"><iframe class="quiz-frame" src="">Loading…</iframe></div>
+                    <div id="f11"><iframe class="quiz-frame" src="https://docs.google.com/forms/d/e/1FAIpQLSdHwL3--zMQnqDVrujxmN-NkBxIsr6YgpbxM_hV1RdTbQdteA/viewform?usp=sf_link">Loading…</iframe></div>
         
                 </div>
             </div>
         </div>
+        <script>
+            window.onload = () => {
+                if (!sessionStorage.getItem("LXID")) {
+                    let my_url = "../login.html";
+                    setTimeout(function () {
+                        window.location.replace(my_url);
+                    }, 5000);
+                }
+            };
+        </script>
     </body>
 </html>

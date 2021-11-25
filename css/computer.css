@@ -305,7 +305,8 @@ html {
 }
 .download:hover a{
 	transition: .5s ease;
-	background: #DF2771;
+background: linear-gradient(to right, #a83279, #ffbb3b);
+  
 	color: #fff;
 }
 

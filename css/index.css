@@ -887,6 +887,8 @@ nav ul li a {
     cursor: pointer;
     text-decoration: none;
     transition: 0.5s;
+    color: #8e41ca;
+    
 }
 nav ul li a:hover {
     background: linear-gradient(to right, #a83279, #ffbb3b);

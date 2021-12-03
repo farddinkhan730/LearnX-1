@@ -915,18 +915,6 @@ nav ul li a:hover {
     color: #2e2e2e;
     transform: scale(1.6);
 }
-.search {
-    padding: 2px 10px;
-    display: flex;
-    justify-content: center;
-    border: 1px solid;
-    border-radius: 20px;
-}
-.search .srch {
-    outline: none;
-    border: none;
-    background: transparent;
-}
 .fa {
     width: 25px;
     height: 30px;

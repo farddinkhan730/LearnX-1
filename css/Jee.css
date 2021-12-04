@@ -464,10 +464,10 @@ button {
   visibility: hidden;
 }
 
-.nav .check-box {
+/* .nav .check-box {
   cursor: pointer;
   visibility: hidden;
-}
+} */
 #icon {
   padding-right: 10px;
   color: #a83279;
@@ -540,9 +540,9 @@ button {
     visibility: visible;
     color: #a83279;
   }
-  .nav .check-box {
+  /* .nav .check-box {
     visibility: visible;
-  }
+  } */
 }
 @media screen and (max-width: 400px) {
   .nav #learned-logo {
